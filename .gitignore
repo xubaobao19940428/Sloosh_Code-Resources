@@ -1,3 +1,4 @@
 /node_modules
 /build
 npminstall-debug.log
+package-lock.json
