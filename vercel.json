@@ -1,9 +1,8 @@
 {
   "version": 2,
-  "installCommand": "npm install --legacy-peer-deps",
-  "builds": [
-    { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "build" } }
-  ],
+  "installCommand": "echo skip-install",
+  "buildCommand": "echo skip-build",
+  "outputDirectory": "build",
   "env": {
     "SKIP_PREFLIGHT_CHECK": "true"
   },
